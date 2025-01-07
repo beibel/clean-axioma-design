@@ -25,9 +25,9 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
-          light: "#D6BCFA",
-          dark: "#7E69AB",
+          DEFAULT: "#1a365d",
+          light: "#2c5282",
+          dark: "#1e3a8a",
         },
         neutral: {
           DEFAULT: "#8E9196",
