@@ -23,7 +23,7 @@ export const HowItWorks = () => {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold">How It Works</h2>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold">How It Works</h2>
           <p className="mt-4 text-neutral text-lg">
             Get started with Axioma in three simple steps
           </p>
@@ -38,7 +38,7 @@ export const HowItWorks = () => {
               <div className="h-12 w-12 bg-primary-light/10 rounded-lg flex items-center justify-center text-primary">
                 {step.icon}
               </div>
-              <h3 className="text-xl font-semibold">{step.title}</h3>
+              <h3 className="text-2xl font-semibold">{step.title}</h3>
               <p className="text-neutral">{step.description}</p>
               {index < steps.length - 1 && (
                 <ArrowRight className="hidden md:block h-6 w-6 text-primary absolute right-[-30px] top-1/2 transform -translate-y-1/2" />

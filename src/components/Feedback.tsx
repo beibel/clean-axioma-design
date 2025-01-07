@@ -29,7 +29,7 @@ export const Feedback = () => {
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold">Customer Feedback</h2>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold">Customer Feedback</h2>
           <p className="mt-4 text-neutral text-lg">
             See what our customers are saying about Axioma
           </p>
@@ -49,9 +49,9 @@ export const Feedback = () => {
                   />
                 ))}
               </div>
-              <p className="text-lg mb-4">"{testimonial.quote}"</p>
+              <p className="text-xl mb-4">"{testimonial.quote}"</p>
               <div className="mt-4">
-                <p className="font-semibold">{testimonial.author}</p>
+                <p className="text-xl font-semibold">{testimonial.author}</p>
                 <p className="text-sm text-neutral">
                   {testimonial.role}, {testimonial.company}
                 </p>

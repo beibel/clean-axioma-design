@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div className="min-h-[80vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-up">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
           Transform Your Customer Support with{" "}
           <span className="text-primary">AI Intelligence</span>
         </h1>

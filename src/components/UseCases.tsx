@@ -28,7 +28,7 @@ export const UseCases = () => {
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold">Use Cases</h2>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold">Use Cases</h2>
           <p className="mt-4 text-neutral text-lg">
             Discover how Axioma can transform your industry
           </p>
@@ -43,7 +43,7 @@ export const UseCases = () => {
               <div className="h-12 w-12 bg-primary-light/10 rounded-lg flex items-center justify-center text-primary mb-4">
                 {useCase.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-2">{useCase.title}</h3>
+              <h3 className="text-2xl font-semibold mb-2">{useCase.title}</h3>
               <p className="text-neutral">{useCase.description}</p>
             </div>
           ))}
